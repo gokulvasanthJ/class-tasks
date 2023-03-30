@@ -28,7 +28,7 @@ request.onload=function(){
     console.log(result);
     
     for (let i=0;i<result.length; i++){
-        console.log(result[i].region,result[i].subregion,result[i].population)
+        console.log(result[i].capital[0],result[i].region,result[i].subregion,result[i].population)
     }
     
 
