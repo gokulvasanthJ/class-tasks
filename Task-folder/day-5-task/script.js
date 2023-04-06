@@ -13,17 +13,22 @@
     //---------------X---------------
     //Using function:
     //1)
-    function numbers(){
-     let numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-            for(  i=0; i<numbers.length; i++){
-                if(i%2!=0){
-                  console.log("OddNumbers",i)
-                  }
+//     function numbers(){
+//      let numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+//             for(  i=0; i<numbers.length; i++){
+//                 if(i%2!=0){
+//                   console.log("OddNumbers",i)
+//                   }
                   
-               }           
- }
-    numbers();
+//                }           
+//  }
+//     numbers();
     //---------------X-------------------
+    let fruits=['apple','orange','stauberry','banana','grapes','guva'];
+    let i=fruits
+    for(let i=0; i<fruits.length; i++){
+        console.log((i.map.i[0][0].toUpperCase()+i.slice(1, )));
+    }
 
 
    
